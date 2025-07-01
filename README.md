@@ -1,5 +1,3 @@
-# Hazelcast-Sales-Demo
-
 
 # Hazelcast Order Demo
 
