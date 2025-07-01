@@ -24,7 +24,7 @@ Developed as part of my internship at **İ2İ Systems**, this project showcases:
 
 ```
 
-Hazelcast\_Order\_Demo/
+Hazelcast\_Sales\_Demo/
 ├── src/
 │   └── main/
 │       └── java/
