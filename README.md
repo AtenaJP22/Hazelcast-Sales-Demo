@@ -1,6 +1,6 @@
 # Hazelcast-Sales-Demo
 
-```markdown
+
 # Hazelcast Order Demo
 
 A Java-based project demonstrating distributed data storage and caching using **Hazelcast**.
