@@ -1,5 +1,5 @@
 
-# Hazelcast Order Demo
+# Hazelcast Sales Demo
 
 A Java-based project demonstrating distributed data storage and caching using **Hazelcast**.
 
@@ -30,11 +30,9 @@ Hazelcast\_Order\_Demo/
 │       └── java/
 │           └── com/
 │               └── i2i/
-│                   ├── model/
-│                   │   └── Order.java
-│                   ├── service/
-│                   │   └── OrderService.java
-│                   └── Main.java
+│                   ├── Customer.java
+│                   ├── Item.java
+│                   └── OrderDemo.java
 ├── pom.xml
 
 ````
@@ -46,8 +44,8 @@ Hazelcast\_Order\_Demo/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/hazelcast-order-demo.git
-cd hazelcast-order-demo
+git clone https://github.com/yourusername/hazelcast-sales-demo.git
+cd hazelcast-sales-demo
 ````
 
 ### 2. Run with Maven
@@ -63,8 +61,9 @@ mvn clean compile exec:java
 ## 🔍 Example Output
 
 ```
-Added order with ID: 1
-Retrieved order: Order{id=1, product='Laptop', quantity=2}
+Order #5001
+Customer: Tia, Paris, 555–123
+Item: Warehouse-A, Shelf–3
 ```
 
 ---
